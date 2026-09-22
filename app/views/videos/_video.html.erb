@@ -1,0 +1,13 @@
+<div class="col-3">
+  <div class="card">
+    <div class="card-body">
+      <strong>
+        <%= video.title %>
+        <p class="small"><%= truncate video.description, length: 30 %></p>  
+        <p class="text-muted small"><%= time_ago_in_words video.created_at %> 전, 조회수 <%= video.view_count.to_i %>회</p>   
+      </strong>
+    </div> 
+  </div>
+</div>
+
+<%= @video %>
