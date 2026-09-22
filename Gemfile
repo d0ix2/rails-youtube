@@ -58,7 +58,7 @@ gem "image_processing", "~> 1.2"
 gem "jbuilder"
 
 # Temporary compatibility constraint
-gem "json", "< 3"
+gem "json", "< 4"
 
 
 # ============================================================
