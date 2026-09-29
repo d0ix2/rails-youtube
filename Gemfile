@@ -4,7 +4,7 @@ source "https://rubygems.org"
 # Rails
 # ============================================================
 
-gem "rails", "~> 8.1.3", ">= 8.1.3.1"
+gem "rails", "~> 8.1.4"
 gem "propshaft"
 gem "bootsnap", require: false
 
